@@ -10,11 +10,14 @@ import Home from './Home';
 import Battle from './Battle';
 import NotFound from './NotFound';
 import Results from './Results';
+import createHistory from 'history/createBrowserHistory'
+const history = createHistory();
+
 
 class App extends React.Component{
     render(){
         return(
-          <Router>
+          <Router history={history}>
              <div className="container">
                 <Nav />
                 <Switch>
