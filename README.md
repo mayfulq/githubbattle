@@ -1,4 +1,4 @@
-# [Github Battle](https://mayfulq.github.io/githubbattle/dist/index.html)
+# [Github Battle](https://mayfulq.github.io/githubbattle/dist/)
 
 ### React版本: 15.5.4
 
