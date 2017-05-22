@@ -18,10 +18,10 @@ class App extends React.Component{
              <div className="container">
                 <Nav />
                 <Switch>
-                    <Route exact path='/' component={Home} />
-                    <Route exact path='/battle' component={Battle} />
-                    <Route path='/battle/results' component={Results} />
-                    <Route path='/popular' component={Popular} />
+                    <Route exact path='/githubbattle/dist/' component={Home} />
+                    <Route exact path='/githubbattle/dist/battle' component={Battle} />
+                    <Route path='/githubbattle/dist/battle/results' component={Results} />
+                    <Route path='/githubbattle/dist/popular' component={Popular} />
                     <Route  component={NotFound} />
                 </Switch>
              </div>
