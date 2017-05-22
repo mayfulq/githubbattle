@@ -10,7 +10,7 @@ import Home from './Home';
 import Battle from './Battle';
 import NotFound from './NotFound';
 import Results from './Results';
-import createHistory from 'history/createBrowserHistory'
+import createHistory from 'history/createBrowserHistory';
 const history = createHistory();
 
 
